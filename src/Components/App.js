@@ -8,13 +8,6 @@ import RateWinoaPhotos from "./RateWinoaPhotos"
 import About from "./About"
 import { Route, Switch } from "react-router-dom";
 
-// Where does state live?
-  // App will control state for WinoaPhotoItem and SubmissionForm
-  // Submission form will have WinoaPhotoItem and WinoaPhotoList???? Or should I just put it all in App
-  // WinoaPhotoList will have need access to WinoaPhotoItem state
-  // WinoaPhotoItem and WinoaPhotoList will need access to SubmissionForm state
-  // Navbar -- refresh on that
-
 function App() {
 
   const [submittedData, setSubmittedData] = useState([])

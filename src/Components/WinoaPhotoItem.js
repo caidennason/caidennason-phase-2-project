@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/button'
 
 function WinoaPhotoItem({submittedData, description, link, handleDeleteQuestion, id, data}){
 
+
     function handleDeleteRequest(){
         fetch(`http://localhost:3000/winoaResponses/${id}`, {
             method: "DELETE",
