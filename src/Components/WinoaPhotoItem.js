@@ -2,7 +2,7 @@ import React from "react"
 import Card from 'react-bootstrap/card'
 import Button from 'react-bootstrap/button'
 
-function WinoaPhotoItem({submittedData, description, link, handleDeleteQuestion, key, id, data}){
+function WinoaPhotoItem({submittedData, description, link, handleDeleteQuestion, id, data}){
 
     function handleDeleteRequest(){
         fetch(`http://localhost:3000/winoaResponses/${id}`, {
@@ -14,7 +14,7 @@ function WinoaPhotoItem({submittedData, description, link, handleDeleteQuestion,
     }
 
     return(
-        <Card className="m-auto align-self-center"key={key} bg='dark' style={{width:'18rem'}}>
+        <Card className="m-auto align-self-center"key={id} bg='dark' style={{width:'18rem'}}>
             <Card.Title style={{color:'peachpuff'}}>Here's submission {id}!</Card.Title>
             <Card.Text style={{color:'peachpuff'}}>{description}</Card.Text>
             <Card.Img style={{color:'peachpuff'}} src={link} alt="dog photo"/>

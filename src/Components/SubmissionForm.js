@@ -61,36 +61,3 @@ function SubmissionForm({putOnPage, submittedData, handleDeleteQuestion}){
 }
 
 export default SubmissionForm
-
-
-
-
-
-
-// const submittedWinoaObject = submittedData.map((obj, idx) => {
-//     return (<Card bg='dark'style={{width:'18rem'}} className='mb-2'key={idx}>
-//         <Card.Title style={{color:'peachpuff'}}>What a great Winoa!</Card.Title>
-//         <Card.Text style={{color:'peachpuff'}}>{obj.formDescription}</Card.Text>
-//         <Card.Img src={obj.formLink}/>  {/*need to put src link here */}
-//         <br></br>
-//     </Card>
-//     )
-// })
-
-{/* <Form style={{textAlign:'center'}} onSubmit={handlePostSubmit}>
-            <input type='text' onChange={handleFormDescription} value={formDescription} onClick={() => setFormDescription('')}/>
-            <input type='text' onChange={handleFormLink} value={formLink}/>
-            <Button type="submit" value='Submit'>Submit</Button>
-        </Form>
-        <h3>Winoa Data Object</h3>
-        <WinoaPhotoList submittedWinoaObject={submittedWinoaObject}/> */}
-
-    
-    // function handleSubmit(event) {
-    //     const formData = { formDescription: formDescription, formLink: formLink };
-    //     const dataArray = [...submittedData, formData];
-    //     setSubmittedData(dataArray);
-    //     submittedData={submittedData}console.log(submittedData)
-    //     setFormDescription("Description");
-    //     setFormLink("Link");
-    //   }
