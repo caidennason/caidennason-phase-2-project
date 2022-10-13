@@ -53,6 +53,8 @@ function SubmissionForm({putOnPage, submittedData, handleDeleteQuestion}){
             onChange={handleFormLink}
             />
             <Button type='submit'>Submit</Button>
+            <br></br>
+            <br></br>
         </Form>
         <WinoaPhotoList submittedData={submittedData} handleDeleteQuestion={handleDeleteQuestion}/>
         <WinoaPhotoItem submittedData={submittedData} />

@@ -20,6 +20,7 @@ function WinoaPhotoItem({submittedData, description, link, handleDeleteQuestion,
             <Card.Img style={{color:'peachpuff'}} src={link} alt="dog photo"/>
             <Button onClick={handleDeleteRequest}>Delete</Button>
             <br></br>
+            <br></br>
         </Card>
     )
 }

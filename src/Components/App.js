@@ -35,7 +35,7 @@ function App() {
 
   function handleDeleteQuestion(deletedQuestion){
     const remainingQuestions = deletedQuestion.filter((q) => q.id !== deletedQuestion.id)
-    console.log(submittedData)
+    console.log('hi')
     setSubmittedData(remainingQuestions)
   }
 
