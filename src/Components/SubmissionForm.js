@@ -1,8 +1,7 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import WinoaPhotoList from './WinoaPhotoList'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form'
-import Card from 'react-bootstrap/Card'
 import WinoaPhotoItem from './WinoaPhotoItem';
 
 function SubmissionForm({putOnPage, submittedData, handleDeleteQuestion}){
@@ -27,6 +26,7 @@ function SubmissionForm({putOnPage, submittedData, handleDeleteQuestion}){
         fetch('http://localhost:3000/winoaResponses', {
           method: "POST",
           headers: {
+            "Accept": "application/json",
             "Content-Type": "application/json",
           },
           body: JSON.stringify(formData)

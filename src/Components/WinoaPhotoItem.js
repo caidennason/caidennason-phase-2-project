@@ -1,6 +1,4 @@
 import React from "react"
-import WinoaPhotoList from "./WinoaPhotoList"
-import SubmissionForm from "./SubmissionForm"
 import Card from 'react-bootstrap/card'
 import Button from 'react-bootstrap/button'
 

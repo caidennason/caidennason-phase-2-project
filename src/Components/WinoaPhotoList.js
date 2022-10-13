@@ -1,6 +1,4 @@
 import React from "react";
-import Card from 'react-bootstrap/card'
-import Button from 'react-bootstrap/button'
 import WinoaPhotoItem from "./WinoaPhotoItem";
 
 function WinoaPhotoList({submittedData, handleDeleteQuestion}){
