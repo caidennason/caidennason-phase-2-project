@@ -4,7 +4,7 @@ import Navbar from  "./Navbar"
 import WinoaPhotoList from "./WinoaPhotoList"
 import WinoaPhotoItem from "./WinoaPhotoItem"
 import Home from "./Home"
-import RateWinoaPhotos from "./RateWinoaPhotos"
+import WinoaFoodRater from "./WinoaFoodRater"
 import About from "./About"
 import { Route, Switch } from "react-router-dom";
 

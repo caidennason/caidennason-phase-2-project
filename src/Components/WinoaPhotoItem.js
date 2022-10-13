@@ -44,10 +44,10 @@ const [likeState, setLikeState] = useState(false)
             <Card.Title style={{color:'peachpuff'}}>Here's submission {id}!</Card.Title>
             <Card.Text style={{color:'peachpuff'}}>{description}</Card.Text>
             <Card.Img style={{color:'peachpuff'}} src={link} alt="dog photo"/>
-            <Button onClick={handleLoveClick} style={{color: loveState ? 'red' : 'white'}}>{loveContent}</Button>
-            <Button onClick={handleLikeClick} style={{color: likeState ? 'red' : 'white'}}>{likeContent}</Button>
-            <Button onClick={handleDeleteRequest}>Delete</Button> 
             <br></br>
+            <Button onClick={handleLoveClick} variant="outline-primary"style={{color: loveState ? 'red' : 'white'}}>{loveContent}</Button>
+            <Button onClick={handleLikeClick} variant="outline-primary"style={{color: likeState ? 'red' : 'white'}}>{likeContent}</Button>
+            <Button onClick={handleDeleteRequest}variant="outline-primary"style={{color: 'white'}}>Delete</Button> 
             <br></br>
         </Card>
     )

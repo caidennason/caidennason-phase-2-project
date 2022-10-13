@@ -16,6 +16,10 @@ function Navbar(){
     >
         About Winoa
     </NavLink>
+    <NavLink style={{color:'black'}} to="/winoafoodrater"
+    >
+        Winoa Food Rater
+    </NavLink>
     </div>
 }
 
