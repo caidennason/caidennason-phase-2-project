@@ -17,5 +17,3 @@ What you need to do to install it
 * Use "code ." to open the Book Tracker
 * Use "open index.html" to use the Book Tracker on your browser
 
-aaa
-
