@@ -3,18 +3,18 @@ import {NavLink} from "react-router-dom"
 
 function Navbar(){
 
-    return <div className="navbar">
-    <NavLink to="/" onClick={(e) => console.log('hi')}
+    return <div style={{background:'peachpuff'}}className="navbar">
+    <NavLink style={{color:'black'}} to="/" 
     >
         Home
     </NavLink>
-    <NavLink style={{color:'peachpuff'}}to="/about"
-    >
-        About
-    </NavLink>
-    <NavLink to="/submissionform"
+    <NavLink style={{color:'black'}} to="/submissionform"
     >
         Submission Form
+    </NavLink>
+    <NavLink style={{color:'black'}} to="/about"
+    >
+        About Winoa
     </NavLink>
     </div>
 }

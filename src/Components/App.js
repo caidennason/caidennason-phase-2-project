@@ -27,8 +27,7 @@ function App() {
   // DELETE REQUEST HANDLER
 
   function handleDeleteQuestion(deletedQuestion){
-    const remainingQuestions = deletedQuestion.filter((q) => q.id !== deletedQuestion.id)
-    console.log('hi')
+    const remainingQuestions = submittedData.filter((q) => q.id !== deletedQuestion.id)
     setSubmittedData(remainingQuestions)
   }
 
@@ -39,7 +38,7 @@ function App() {
     <Route exact path="/submissionform">
       <SubmissionForm submittedData={submittedData}putOnPage={putOnPage} handleDeleteQuestion={handleDeleteQuestion}/>
     </Route>
-    <Route exact path="about">
+    <Route exact path="/about">
       <About />
     </Route>
     <Route exact path="/">

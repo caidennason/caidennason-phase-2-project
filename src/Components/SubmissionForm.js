@@ -33,12 +33,14 @@ function SubmissionForm({putOnPage, submittedData, handleDeleteQuestion}){
         })
         .then((resp) => resp.json())
         .then((submittedWinoaObject) => putOnPage(submittedWinoaObject))
+        .then(() => setFormDescription('Description'))
+        .then(() => setFormLink('Link'))
       }
       
     
     return(
 
-        <div>
+        <div style={{background:'peachpuff'}}>
         <Form onSubmit={handlePostSubmit}>
             <input
             type='text'
@@ -57,7 +59,6 @@ function SubmissionForm({putOnPage, submittedData, handleDeleteQuestion}){
             <br></br>
         </Form>
         <WinoaPhotoList submittedData={submittedData} handleDeleteQuestion={handleDeleteQuestion}/>
-        <WinoaPhotoItem submittedData={submittedData} />
         </div>
     )
 }
