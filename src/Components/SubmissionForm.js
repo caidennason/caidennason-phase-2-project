@@ -32,7 +32,7 @@ function SubmissionForm({putOnPage, submittedData, handleDeleteQuestion}){
           body: JSON.stringify(formData)
         })
         .then((resp) => resp.json())
-        .then((submittedWinoaObject) => putOnPage(submittedWinoaObject)) // get new question added to the array that already exists
+        .then((submittedWinoaObject) => putOnPage(submittedWinoaObject))
       }
       
     
