@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import {NavLink} from "react-router-dom"
 
 function Navbar(){
@@ -15,10 +15,6 @@ function Navbar(){
     <NavLink style={{color:'black'}} to="/about"
     >
         About Winoa
-    </NavLink>
-    <NavLink style={{color:'black'}} to="/winoafoodrater"
-    >
-        Winoa Food Rater
     </NavLink>
     </div>
 }

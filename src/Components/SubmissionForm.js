@@ -2,7 +2,6 @@ import React, {useState} from 'react'
 import WinoaPhotoList from './WinoaPhotoList'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form'
-import WinoaPhotoItem from './WinoaPhotoItem';
 
 function SubmissionForm({putOnPage, submittedData, handleDeleteQuestion}){
 
@@ -40,7 +39,7 @@ function SubmissionForm({putOnPage, submittedData, handleDeleteQuestion}){
     
     return(
 
-        <div style={{background:'peachpuff'}}>
+        <div style={{backgroundColor:'peachpuff'}}>
         <Form onSubmit={handlePostSubmit}>
             <input
             type='text'

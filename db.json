@@ -1,19 +1,3 @@
 {
-  "winoaResponses": [
-    {
-      "description": "Winoa!",
-      "link": "https://i.imgur.com/car2LGf.jpg",
-      "id": 1
-    },
-    {
-      "description": "Textured Winoa",
-      "link": "https://i.imgur.com/tgRMxQM.jpg",
-      "id": 2
-    },
-    {
-      "description": "Grannie Winoa",
-      "link": "https://i.imgur.com/IhuFLXw.jpg",
-      "id": 3
-    }
-  ]
+  "winoaResponses": []
 }

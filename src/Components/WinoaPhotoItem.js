@@ -2,7 +2,7 @@ import React, {useState} from "react"
 import Card from 'react-bootstrap/card'
 import Button from 'react-bootstrap/button'
 
-function WinoaPhotoItem({submittedData, description, link, handleDeleteQuestion, id, data}){
+function WinoaPhotoItem({description, link, handleDeleteQuestion, id, data}){
 
 const [loveState, setLoveState] = useState(false)
 const [loveContent, setLoveContent] = useState('Love')
@@ -14,7 +14,6 @@ const [likeState, setLikeState] = useState(false)
             method: "DELETE",
         })
         .then(response => response.json())
-        .then(() => console.log(`deleted ${id}!`))
         .then(() => handleDeleteQuestion(data))
     }
 
