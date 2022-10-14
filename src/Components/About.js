@@ -9,7 +9,7 @@ function About(){
             <Card.Title className="m-auto align-self-center">Howdy from Cowboy Winoa</Card.Title>
             <Card.Img className='text-center'src="https://i.imgur.com/31uEVZl.jpg"></Card.Img>
         </Card>
-        <h3>Winoa is a rescue dog who lives in Brooklyn, New York. She was born 4 years ago in Puerto Rico, and
+        <h3 style={{backgroundColor:'peachpuff'}}>Winoa is a rescue dog who lives in Brooklyn, New York. She was born 4 years ago in Puerto Rico, and
             is a very sweet dog. She loves running through leaves, eating steak, and trying on new sweaters and 
             hats her mom gets her.
         </h3>

@@ -3,7 +3,7 @@ import WinoaPhotoList from './WinoaPhotoList'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form'
 
-function SubmissionForm({putOnPage, submittedData, handleDeleteQuestion}){
+function SubmissionForm({putOnPage, submittedData, handleDeleteSubmission}){
 
     const [formDescription, setFormDescription] = useState('Description')
     const [formLink, setFormLink] = useState('Link')
@@ -57,9 +57,15 @@ function SubmissionForm({putOnPage, submittedData, handleDeleteQuestion}){
             <br></br>
             <br></br>
         </Form>
-        <WinoaPhotoList submittedData={submittedData} handleDeleteQuestion={handleDeleteQuestion}/>
+        <WinoaPhotoList submittedData={submittedData} handleDeleteSubmission={handleDeleteSubmission}/>
         </div>
     )
 }
 
 export default SubmissionForm
+
+// https://i.imgur.com/IhuFLXw.jpg
+// https://i.imgur.com/kxsi0lI.jpg
+// https://i.imgur.com/31uEVZl.jpg
+// https://i.imgur.com/tgRMxQM.jpg
+// https://i.imgur.com/vBnz4cr.jpg
