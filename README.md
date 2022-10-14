@@ -18,4 +18,5 @@ What you need to do to install it
 * In a seperate terminal, navigate into phase 2 project
 * Run 'npm install'
 * Once completed, run 'npm start'
+* Once this is installed, run 'npm run server' in the initial phase-2-project folder
 
